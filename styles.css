@@ -1,0 +1,310 @@
+.haha {
+  font-weight: bold;
+  font-style: oblique;
+  font-family: Comic Sans MS;
+  background-color: #1b001b;
+  background-image: url("img/bad.png");
+  background-size: normal;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.haha-button {
+  background-image: radial-gradient(#faf819, #fa9f02, #81589f);
+}
+
+.haha-button:hover {
+  transform: scale(1.2);
+  background-image: radial-gradient(#0ba9f9, #0ba812, #ffffff);
+}
+
+.haha-button:hover {
+  transition: all 2000ms;
+}
+
+/*Modal*/
+
+.title-text {
+  font-weight: bold;
+  font-family: Comic Sans MS;
+  color: #ffdd00;
+  font-size: 20px;
+  border-left: solid #00ffff 20px;
+  border-right: dotted #91581f 13px;
+  border-top: dashed #bfa91b 7px;
+  border-bottom: dashed #915185 3px;
+  background-color: #00aa00;
+}
+
+.title-text:hover {
+  transition: all 2000ms;
+}
+
+.title-text:hover {
+  transform: scale(2.7);
+  background-image: linear-gradient(red, yellow, green, blue, purple);
+}
+
+.bad {
+  font-style: italic;
+  font-family: helvetica;
+  background-color: #ff9191;
+}
+
+.bad:hover {
+  transition: all 2000ms;
+}
+
+.bad:hover {
+  font-style: oblique;
+  color: #bc91b1;
+  background-color: #185815;
+  font-family: Comic Sans MS;
+  transform: scale(1.2);
+}
+
+.bad-2 {
+  font-weight: lighter;
+  font-style: oblique;
+  font-family: cursive;
+  color: #a9f19a;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #f1a8dd;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #a81b09;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Bad Modal*/
+
+.badmodal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 5px;
+  top: -5px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.badmodal-content {
+  background-color: #19fba9;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #187581;
+  width: 80%;
+}
+
+.badclose {
+  color: #019ba2;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.badclose:hover,
+.badclose:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Bad Modal 2*/
+
+.badmodal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: -10;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.badmodal2-content {
+  background-color: #fafa91;
+  margin: 15% auto;
+  padding: 20px;
+  border: 10px solid #bc1919;
+  width: 80%;
+}
+
+.badclose2 {
+  color: #019ba2;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.badclose2:hover,
+.badclose2:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Bad Modal 3*/
+
+.badmodal3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: -15px;
+  top: -50px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.badmodal3-content {
+  background-color: #91bc92;
+  margin: 15% auto;
+  padding: 20px;
+  border: 3px solid #011fd4;
+  width: 80%;
+}
+
+.badclose3 {
+  color: #019ba2;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.badclose3:hover,
+.badclose3:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Bad Modal 4*/
+
+.badmodal4 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: -23px;
+  top: -39px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.badmodal4-content {
+  background-color: #b919ca;
+  margin: 15% auto;
+  padding: 20px;
+  border: 20px dotted #ff91fa;
+  width: 80%;
+}
+
+.badclose4 {
+  color: #019ba2;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.badclose4:hover,
+.badclose4:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.funnytext {
+  color: #ff81a8;
+  font-weight: bold;
+  border: solid 3px black;
+}
+
+.ugly-container {
+  background-color: #abab00;
+  border-left: 27px dashed #b4a0f9;
+  border-top: 3px dotted #000fb3;
+  border-right: 2px solid #1bff5c;
+}
+
+.ugly-container:hover {
+  transition: all 50ms;
+}
+
+.ugly-container:hover {
+  transform: skewY(19deg);
+  color: #ff00ff;
+  background-color: #120591;
+}
+
+.ugly-container2 {
+  border-left: 10px groove #f92bd0;
+  border-top: 20px dashed #1b92ff;
+  border-right: 3px solid #b91248;
+  border-bottom: 5px dotted #194b19;
+  color: #b185f8;
+  font-size: 36px;
+}
+
+.ugly-container2:hover {
+  transition: all 2000ms;
+}
+
+.ugly-container2:hover {
+  transform: rotate(27deg);
+  color: #181201;
+  background-color: #ba919a;
+}
+
+.ugly-container3 {
+  background-color: #ff91ba;
+  border-left: 7px groove #c9a021;
+  border-top: 1px groove #b0a8ff;
+  border-right: 9px solid #aba094;
+  border-bottom: 2px solid #ca01ba;
+  color: #ab19f2;
+  font-size: 13px;
+}
+
+.ugly-container3:hover {
+  transition: all 2000ms;
+}
+
+.ugly-container3:hover {
+  transform: scale(0.03deg);
+  color: #d9ab12;
+  background-color: #9abfc9;
+}
+
+.ugly-text {
+  color: #c919b9;
+}
